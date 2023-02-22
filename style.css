@@ -1,0 +1,62 @@
+/* #my-para{
+    color: red;
+    font-style: italics;
+    font-size: 20px;
+}
+
+.box{
+    background-color: blue;
+    
+} */
+
+*{
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.cal-container{
+    padding: 20px;
+    border: 1vh solid grey;
+    height: 70vh;
+    width: 50vh;
+    border-radius: 8%;
+    background-color: black;
+}
+
+.result{
+    padding: 10px;
+    border: 0.5vh solid black;
+    height: 20vh;
+    border-radius: 4;
+}
+
+table{
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: grey
+}
+
+.btn-end{
+    background-color: goldenrod
+}
+
+.btn-white{
+    background-color: whitesmoke;
+    color: black; 
+}
+
+.result{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: flex-end;
+
+}
